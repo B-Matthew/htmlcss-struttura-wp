@@ -8,9 +8,60 @@
 
 /* regole header */
 
+.title {
+  background-color: pink;
+  height: 100px;
+}
 
 /* regole main */
+.container {
+  width: 50%;
+  margin: auto;
+}
+.firstbox {
+  height: 350px;
+  background-color: yellow;
+  margin: 20px 0;
+}
 
+.row {
+  background-color: blue;
+}
 
+.row::after {
+  content:"";
+  display: table;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.topside {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: lightblue;
+}
+
+aside {
+  width: 20%;
+  height: 350px;
+  background-color: lightblue;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.sidecenter {
+  height: 350px;
+  width: 57%;
+  margin: 0 1.5%;
+  background-color: lightblue;
+  float: left;
+  margin-bottom: 15px;
+}
 
 /* regole footer */
+
+footer {
+  height: 50px;
+  background-color: purple;
+}
